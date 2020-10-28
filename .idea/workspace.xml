@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/assignments/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assignments/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +57,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603514247930">
+    <state x="699" y="257" key="IDE.errors.dialog" timestamp="1603899040044">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603514247930" />
+    <state x="699" y="257" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603899040044" />
+    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603899456703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603899456703" />
     <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603802095706">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
