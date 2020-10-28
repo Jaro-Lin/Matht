@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/assignments/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assignments/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,11 +70,37 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="971" y="419" key="Github.ShareDialog" timestamp="1603906365785">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="971" y="419" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603906365785" />
     <state x="699" y="257" key="IDE.errors.dialog" timestamp="1603899040044">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="699" y="257" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603899040044" />
+    <state x="612" y="154" key="SettingsEditor" timestamp="1603906185172">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="612" y="154" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603906185172" />
+    <state x="711" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603906704653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="711" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603906704653" />
     <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603899456703">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -77,5 +117,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="861" y="234" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603628146408" />
+    <state x="949" y="313" key="svn.repositoryBrowser" timestamp="1603906633309">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="949" y="313" key="svn.repositoryBrowser/0.0.1920.1080@0.0.1920.1080" timestamp="1603906633309" />
   </component>
 </project>
