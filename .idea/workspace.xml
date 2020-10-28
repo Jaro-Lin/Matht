@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="">
+    <list default="true" id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="dehi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/base.py" afterDir="false" />
     </list>
@@ -68,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603426499305</updated>
     </task>
+    <task id="LOCAL-00001" summary="dehi">
+      <created>1603907121479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603907121479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,7 +90,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="dehi" />
+    <option name="LAST_COMMIT_MESSAGE" value="dehi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="971" y="419" key="Github.ShareDialog" timestamp="1603906365785">
@@ -97,10 +106,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="612" y="154" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603906185172" />
-    <state x="711" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603906704653">
+    <state x="711" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603907316263">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="711" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603906704653" />
+    <state x="711" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603907316263" />
     <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603899456703">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -109,6 +118,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603802095706" />
+    <state x="899" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603907277676">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="899" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603907277676" />
     <state x="43" y="97" width="1038" height="561" key="dock-window-1" timestamp="1603862583710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
