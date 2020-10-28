@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jGNWUR5eVEhECA9ftKvJVDu1Yz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/test" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="" />
+      <created>1603426499305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603426499305</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603514247930">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603514247930" />
+    <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603802095706">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603802095706" />
+    <state x="43" y="97" width="1038" height="561" key="dock-window-1" timestamp="1603862583710">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="43" y="97" width="1038" height="561" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1603862583710" />
+    <state x="861" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1603628146408">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="861" y="234" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603628146408" />
+  </component>
+</project>
