@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Menu, Breadcrumb } from "antd";
+import { Layout, Menu } from "antd";
 import { Link, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import * as actions from "../store/actions/auth";
@@ -7,14 +7,6 @@ import * as actions from "../store/actions/auth";
 const { Header, Content, Footer, Sider } = Layout;
 
 class CustomLayout extends React.Component {
-
-  state = {
-    collapsed: false,
-  };
-
-  onCollapse = collapsed => {
-    this.setState({ collapsed });
-  };
 
   render() {
     return (
@@ -42,8 +34,11 @@ class CustomLayout extends React.Component {
         {this.props.token !== null ? (
          <Sider width={150} style={{ background: '#fff' }}>
             <Menu theme="light" mode="inline" style={{ height: '100%', borderRight: 0 }}>
+            <Menu.Item key="10">
+              <Link to="/" >ClassList</Link>
+            </Menu.Item>
             <Menu.Item key="1">
-              <Link to="/" >AssignmentList</Link>
+              <Link to="/practice" >PracticeList</Link>
             </Menu.Item>
             <Menu.Item key="2">
               <Link to="/testlist">TestList</Link>
@@ -51,42 +46,32 @@ class CustomLayout extends React.Component {
             <Menu.Item key="3">
               <Link to={`/profile/${this.props.userId}`}>Profile</Link>
             </Menu.Item>
-            <Menu.Item key="4">
-              <Link to="/create">CreateAssignment</Link>
-            </Menu.Item>
-            <Menu.Item key="5">
+            {this.props.is_teacher ? (<Menu.Item key="4">
+              <Link to="/gradedTestlist">GradedTestList</Link>
+            </Menu.Item>):null}
+            {this.props.is_teacher ? (<Menu.Item key="5">
+              <Link to="/create">CreatePractice</Link>
+            </Menu.Item>):null}
+            {this.props.is_teacher ? (<Menu.Item key="6">
               <Link to="/createTest">CreateTest</Link>
+            </Menu.Item>):null}
+            <Menu.Item key="7">
+            <Link to="/upload">Upload</Link>
             </Menu.Item>
-            <Menu.Item key="6">
+            <Menu.Item key="8">
+            <Link to="/homework">Homework</Link>
+            </Menu.Item>
+            <Menu.Item key="11">
+            <Link to="/material">Material</Link>
+            </Menu.Item>
+            <Menu.Item key="9">
             <Link to="/calendar">Calendar</Link>
             </Menu.Item>
             </Menu>
         </Sider>):null}
        <Layout>
         <Content style={{ padding: "0 50px" }}>
-          <Breadcrumb style={{ margin: "16px 0" }}>
-            <Breadcrumb.Item>
-              <Link to="/">Home</Link>
-            </Breadcrumb.Item>
-            <Breadcrumb.Item>
-              <Link to="/testlist">Test</Link>
-            </Breadcrumb.Item>
-            {this.props.token !== null ? (
-              <Breadcrumb.Item>
-                <Link to={`/profile/${this.props.userId}`}>Profile</Link>
-              </Breadcrumb.Item>
-            ) : null}
-            {this.props.token !== null && this.props.is_teacher ? (
-              <Breadcrumb.Item>
-                <Link to="/create">Create</Link>
-              </Breadcrumb.Item>
-            ) : null}
-            {this.props.token !== null && this.props.is_teacher ? (
-              <Breadcrumb.Item>
-                <Link to="/createTest">CreateTest</Link>
-              </Breadcrumb.Item>
-            ) : null}
-          </Breadcrumb>
+
           <div style={{ background: "#fff", padding: 24, minHeight: 280 }}>
             {this.props.children}
           </div>
@@ -94,7 +79,7 @@ class CustomLayout extends React.Component {
        </Layout>
        </Layout>
         <Footer style={{ textAlign: "center" }}>
-            Math Teacher @ Group 12
+            Online Math Teaching © Group 12
         </Footer>
       </Layout>
     );

@@ -24,28 +24,29 @@ class TestCreateSerializer(serializers.ModelSerializer):
     test.save()
     return test
 
-class TestUpdateSerializer(serializers.ModelSerializer):
-  student = StringSerializer(many=False)
+
+class TestListSerializer(serializers.ModelSerializer):
 
   class Meta:
-    model = Test
+    model = GradedTest
+    fields = ('__all__')
+
+
+class TestUpdateSerializer(serializers.ModelSerializer):
+  student = StringSerializer(many=True)
+
+  class Meta:
+    model = GradedTest
     fields = ('__all__')
 
   def create(self, request):
     data = request.data
 
-    test = Test.objects.get(id=data['testId'])
-    student = User.objects.get(username=data['username'])
     graded_test = GradedTest()
-    graded_test.title = test.title
-    graded_test.test = test.test
+    student = User.objects.get(username=data['username'])
+    #title = Test.objects.get(id=data['testId'])
     graded_test.student = student
+    graded_test.title = data['title']
+    graded_test.test = data['test']
     graded_test.save()
     return graded_test
-
-  def update(self, instance, request):
-    data = request.data
-
-    instance.test = data.get('test', instance.test)
-    instance.save()
-    return instance

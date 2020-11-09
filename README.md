@@ -1,6 +1,6 @@
 # Math Teacher
 
-This project contains a Django Rest API with a React frontend. Users are able to signup and login to their account. Teachers are able to create practice and quiz. Students are able to answer those practice and quiz and view their results.
+This project contains a Django Rest API with a React frontend. Users are able to login to their account. Teachers are able to create practice and quiz and upload materials and marks. Students are able to answer those practice and quiz and view their results.
 
 ## Backend development workflow
 

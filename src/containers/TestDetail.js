@@ -1,10 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Card, Skeleton, message, Button } from "antd";
+import { Card, Skeleton, message, Button, Input } from "antd";
 import { getTestDetail } from "../store/actions/test";
 import { createGradedTest } from "../store/actions/gradedTest";
 import Hoc from "../hoc/hoc";
-import {Editor} from "@tinymce/tinymce-react/lib/es2015/main/ts";
+import $ from 'jquery';
 
 const cardStyle = {
   marginTop: "20px",
@@ -12,9 +12,14 @@ const cardStyle = {
 };
 
 class TestDetail extends React.Component {
-  state = {
-    userTest: {}
-  };
+constructor(props) {
+    super(props);
+    this.state = {
+        userTest: ""
+    };
+    this.getHTML = this.getHTML.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
   componentDidMount() {
     if (this.props.token !== undefined && this.props.token !== null) {
@@ -30,11 +35,30 @@ class TestDetail extends React.Component {
     }
   }
 
-  onChange = (e, tId) => {
-    const { userTest } = this.state;
-    userTest[tId] = e.target.value;
-    this.setState({ userTest });
-  };
+  /*onChange = (e) => {
+    console.log(this.state.userTest);
+    const html = this.ref.current.innerHTML;
+    this.setState({ userTest: html });
+
+  };*/
+
+  getHTML() {
+   $('#sp :input').each(function () {
+       switch (this.type) {
+           case 'text': this.setAttribute('value', this.value); break;this.disabled = true;
+           case 'checkbox':
+           case 'radio':
+               if(this.checked)this.setAttribute('checked', 'checked');
+               else this.removeAttribute('checked');
+               break;
+           case 'textarea': this.innerHTML = this.value; break;
+       }
+   });
+   const html = $('#sp').html();
+   console.log(html);
+   //alert($('#sp').html());
+   this.setState({ userTest: html });
+}
 
   handleEditorChange = (test) => {
         this.setState({ userTest: test });
@@ -42,26 +66,26 @@ class TestDetail extends React.Component {
 
   handleSubmit() {
     message.success("Submitting your test!");
-    const { userTest } = this.state;
+    $('#sp :input').each(function () {
+       switch (this.type) {
+           case 'text': this.setAttribute('value', this.value); break;this.disabled = true;
+           case 'checkbox':
+           case 'radio':
+               if(this.checked)this.setAttribute('checked', 'checked');
+               else this.removeAttribute('checked');
+               break;
+           case 'textarea': this.innerHTML = this.value; break;
+       }
+    });
+    const html = $('#sp').html();
+    this.setState({ userTest: html });
     const test = {
       username: this.props.username,
-      testId: this.props.currentTest.id,
-      test: userTest
+      title: this.props.currentTest.title,
+      test: html
     };
     this.props.createGradedTest(this.props.token, test);
   }
-
-  /*
-  <Editor
-                    apiKey="qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc"
-                    value={currentTest.test}
-                    init={{
-                        height: 200,
-                        menubar: false
-                    }}
-                    onEditorChange={this.handleEditorChange}
-                />
-  */
 
   render() {
     const { currentTest } = this.props;
@@ -75,12 +99,11 @@ class TestDetail extends React.Component {
               <Skeleton active />
             ) : (
               <Card title={title}>
-                <span dangerouslySetInnerHTML={{ __html: currentTest.test }} onChange={this.onChange}>
+                <span id="sp" dangerouslySetInnerHTML={{ __html: currentTest.test }}>
                 </span>
                 <Button type="primary" htmlType="submit" onClick={this.handleSubmit}>
                     Submit
                 </Button>
-
               </Card>
             )}
           </Hoc>

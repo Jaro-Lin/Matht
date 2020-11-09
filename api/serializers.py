@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from users.models import User
-from .models import Assignment, Question, Choice, GradedAssignment
+from .models import Practice, Question, Choice, GradedPractice
 
 
 class StringSerializer(serializers.StringRelatedField):
@@ -22,7 +22,7 @@ class AssignmentSerializer(serializers.ModelSerializer):
     teacher = StringSerializer(many=False)
 
     class Meta:
-        model = Assignment
+        model = Practice
         fields = ('__all__')
 
     def get_questions(self, obj):
@@ -32,7 +32,7 @@ class AssignmentSerializer(serializers.ModelSerializer):
     def create(self, request):
         data = request.data
 
-        assignment = Assignment()
+        assignment = Practice()
         teacher = User.objects.get(username=data['teacher'])
         assignment.teacher = teacher
         assignment.title = data['title']
@@ -57,22 +57,21 @@ class AssignmentSerializer(serializers.ModelSerializer):
             order += 1
         return assignment
 
-
 class GradedAssignmentSerializer(serializers.ModelSerializer):
     student = StringSerializer(many=False)
 
     class Meta:
-        model = GradedAssignment
+        model = GradedPractice
         fields = ('__all__')
 
     def create(self, request):
         data = request.data
         print(data)
 
-        assignment = Assignment.objects.get(id=data['asntId'])
+        assignment = Practice.objects.get(id=data['asntId'])
         student = User.objects.get(username=data['username'])
 
-        graded_asnt = GradedAssignment()
+        graded_asnt = GradedPractice()
         graded_asnt.assignment = assignment
         graded_asnt.student = student
 

@@ -11,6 +11,8 @@ import assignmentReducer from "./store/reducers/assignments";
 import gradedAssignmentReducer from "./store/reducers/gradedAssignments";
 import testReducer from "./store/reducers/test";
 import gradedTestReducer from "./store/reducers/gradedTest";
+import uploadReducer from "./store/reducers/upload";
+import classReducer from "./store/reducers/class";
 
 const composeEnhances = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -19,7 +21,9 @@ const rootReducer = combineReducers({
   assignments: assignmentReducer,
   gradedAssignments: gradedAssignmentReducer,
   test: testReducer,
-  gradedTest: gradedTestReducer
+  gradedTest: gradedTestReducer,
+  upload: uploadReducer,
+  class: classReducer,
 });
 
 const store = createStore(rootReducer, composeEnhances(applyMiddleware(thunk)));

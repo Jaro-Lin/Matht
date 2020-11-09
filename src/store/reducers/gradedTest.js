@@ -2,7 +2,8 @@ import * as actionTypes from "../actions/actionTypes";
 import { updateObject } from "../utility";
 
 const initialState = {
-  test: [],
+  graded_test: [],
+  currentGradedTest: {},
   error: null,
   loading: false
 };
@@ -16,7 +17,7 @@ const getGradedTestListStart = (state, action) => {
 
 const getGradedTestListSuccess = (state, action) => {
   return updateObject(state, {
-    test: action.test,
+    graded_test: action.graded_test,
     error: null,
     loading: false
   });
@@ -29,22 +30,43 @@ const getGradedTestListFail = (state, action) => {
   });
 };
 
-const updateGradedTestListStart = (state, action) => {
+const createGradedTestStart = (state, action) => {
   return updateObject(state, {
     error: null,
     loading: true
   });
 };
 
-const updateGradedTestListSuccess = (state, action) => {
+const createGradedTestSuccess = (state, action) => {
   return updateObject(state, {
-    test: action.test,
     error: null,
     loading: false
   });
 };
 
-const updateGradedTestListFail = (state, action) => {
+const createGradedTestFail = (state, action) => {
+  return updateObject(state, {
+    error: action.error,
+    loading: false
+  });
+};
+
+const getGradedTestDetailStart = (state, action) => {
+  return updateObject(state, {
+    error: null,
+    loading: true
+  });
+};
+
+const getGradedTestDetailSuccess = (state, action) => {
+  return updateObject(state, {
+    currentGradedTest: action.graded_test,
+    error: null,
+    loading: false
+  });
+};
+
+const getGradedTestDetailFail = (state, action) => {
   return updateObject(state, {
     error: action.error,
     loading: false
@@ -59,12 +81,18 @@ const reducer = (state = initialState, action) => {
       return getGradedTestListSuccess(state, action);
     case actionTypes.GET_GRADED_TEST_LIST_FAIL:
       return getGradedTestListFail(state, action);
-    case actionTypes.UPDATE_GRADED_TEST_LIST_START:
-      return updateGradedTestListStart(state, action);
-    case actionTypes.UPDATE_GRADED_TEST_LIST_SUCCESS:
-      return updateGradedTestListSuccess(state, action);
-    case actionTypes.UPDATE_GRADED_TEST_LIST_FAIL:
-      return updateGradedTestListFail(state, action);
+    case actionTypes.CREATE_GRADED_TEST_START:
+      return createGradedTestStart(state, action);
+    case actionTypes.CREATE_GRADED_TEST_SUCCESS:
+      return createGradedTestSuccess(state, action);
+    case actionTypes.CREATE_GRADED_TEST_FAIL:
+      return createGradedTestFail(state, action);
+    case actionTypes.GET_GRADED_TEST_DETAIL_START:
+      return getGradedTestDetailStart(state, action);
+    case actionTypes.GET_GRADED_TEST_DETAIL_SUCCESS:
+      return getGradedTestDetailSuccess(state, action);
+    case actionTypes.GET_GRADED_TEST_DETAIL_FAIL:
+      return getGradedTestDetailFail(state, action);
     default:
       return state;
   }

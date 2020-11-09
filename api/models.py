@@ -2,7 +2,7 @@ from django.db import models
 from users.models import User
 
 
-class Assignment(models.Model):
+class Practice(models.Model):
     title = models.CharField(max_length=50)
     teacher = models.ForeignKey(User, on_delete=models.CASCADE)
 
@@ -10,10 +10,10 @@ class Assignment(models.Model):
         return self.title
 
 
-class GradedAssignment(models.Model):
+class GradedPractice(models.Model):
     student = models.ForeignKey(User, on_delete=models.CASCADE)
-    assignment = models.ForeignKey(
-        Assignment, on_delete=models.SET_NULL, blank=True, null=True)
+    practice = models.ForeignKey(
+        Practice, on_delete=models.SET_NULL, blank=True, null=True)
     grade = models.FloatField()
 
     def __str__(self):
@@ -33,7 +33,7 @@ class Question(models.Model):
     answer = models.ForeignKey(
         Choice, on_delete=models.CASCADE, related_name='answer', blank=True, null=True)
     assignment = models.ForeignKey(
-        Assignment, on_delete=models.CASCADE, related_name='questions', blank=True, null=True)
+        Practice, on_delete=models.CASCADE, related_name='questions', blank=True, null=True)
     order = models.SmallIntegerField()
 
     def __str__(self):

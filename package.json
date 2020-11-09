@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.0",
     "@tinymce/tinymce-react": "^3.8.1",
     "antd": "^3.7.3",
     "axios": "^0.18.0",
@@ -25,5 +27,8 @@
   "engines": {
     "node": "9.5.0",
     "npm": "6.4.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1"
   }
 }

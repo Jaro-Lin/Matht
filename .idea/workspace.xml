@@ -21,7 +21,82 @@
   <component name="ChangeListManager">
     <list default="true" id="0e8ba608-20ad-4d19-a6af-aadfb55fffb5" name="Default Changelist" comment="dehi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/assignments/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/graded_assignments/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.idea/mathteacher.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Homeboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/ModifyAcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Pass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Practice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Quizs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/Tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathteacher/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AssignmentCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AssignmentCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AssignmentList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AssignmentList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/TestCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TestCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/TestDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TestDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/assignments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/assignments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/gradedAssignments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/gradedAssignments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/gradedTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/gradedTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/gradedTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/gradedTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/graded_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/graded_test/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603907121479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dehi">
+      <created>1603908556908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603908556908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,12 +170,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dehi" />
     <option name="LAST_COMMIT_MESSAGE" value="dehi" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="511" y="188" width="1200" height="654" key="DiffContextDialog" timestamp="1604815444140">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="511" y="188" width="1200" height="654" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604815444140" />
     <state x="971" y="419" key="Github.ShareDialog" timestamp="1603906365785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -106,30 +193,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="612" y="154" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603906185172" />
-    <state x="711" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603907316263">
+    <state x="711" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603908578301">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="711" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603907316263" />
-    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603899456703">
+    <state x="711" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603908578301" />
+    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1604815444140">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603899456703" />
-    <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603802095706">
+    <state x="594" y="230" width="1200" height="654" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604815444140" />
+    <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604545721174">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603802095706" />
-    <state x="899" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603907277676">
+    <state x="596" y="150" width="1200" height="654" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604545721174" />
+    <state x="899" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604896130416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="899" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603907277676" />
-    <state x="43" y="97" width="1038" height="561" key="dock-window-1" timestamp="1603862583710">
+    <state x="899" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604896130416" />
+    <state x="126" y="25" width="1023" height="540" key="dock-window-1" timestamp="1604195459859">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="43" y="97" width="1038" height="561" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1603862583710" />
-    <state x="861" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1603628146408">
+    <state x="126" y="25" width="1023" height="540" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1604195459859" />
+    <state x="805" y="176" width="846" height="735" key="find.popup" timestamp="1604192077171">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="861" y="234" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603628146408" />
+    <state x="805" y="176" width="846" height="735" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604192077171" />
+    <state x="861" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1604413599910">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="861" y="234" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604413599910" />
     <state x="949" y="313" key="svn.repositoryBrowser" timestamp="1603906633309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

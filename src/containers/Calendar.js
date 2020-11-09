@@ -2,7 +2,21 @@ import React, { Component } from 'react';
 import { Calendar, Alert } from 'antd';
 import moment from 'moment';
 
-class App extends Component {
+function getListData(value) {
+  let listData;
+  switch (value.date()) {
+    case 8:
+      listData = [
+        { type: 'warning', content: 'This is warning event.' },
+        { type: 'success', content: 'This is usual event.' },
+      ];
+      break;
+    default:
+  }
+  return listData || [];
+}
+
+class Calendars extends Component {
   state = {
     value: moment('2020-11-01'),
     selectedValue: moment('2020-11-01'),
@@ -32,4 +46,4 @@ class App extends Component {
   }
 }
 
-export default Calendar;
+export default Calendars;

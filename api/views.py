@@ -6,13 +6,13 @@ from rest_framework.status import (
     HTTP_400_BAD_REQUEST
 )
 
-from .models import Assignment, GradedAssignment
+from .models import Practice, GradedPractice
 from .serializers import AssignmentSerializer, GradedAssignmentSerializer
 
 
 class AssignmentViewSet(viewsets.ModelViewSet):
     serializer_class = AssignmentSerializer
-    queryset = Assignment.objects.all()
+    queryset = Practice.objects.all()
 
     def create(self, request):
         serializer = AssignmentSerializer(data=request.data)
@@ -27,7 +27,7 @@ class GradedAssignmentListView(ListAPIView):
     serializer_class = GradedAssignmentSerializer
 
     def get_queryset(self):
-        queryset = GradedAssignment.objects.all()
+        queryset = GradedPractice.objects.all()
         username = self.request.query_params.get('username', None)
         if username is not None:
             queryset = queryset.filter(student__username=username)
@@ -36,7 +36,7 @@ class GradedAssignmentListView(ListAPIView):
 
 class GradedAssignmentCreateView(CreateAPIView):
     serializer_class = GradedAssignmentSerializer
-    queryset = GradedAssignment.objects.all()
+    queryset = GradedPractice.objects.all()
 
     def post(self, request):
         print(request.data)

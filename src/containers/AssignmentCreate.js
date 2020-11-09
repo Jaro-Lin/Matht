@@ -70,7 +70,7 @@ class AssignmentCreate extends React.Component {
     }
     return (
       <Form onSubmit={this.handleSubmit}>
-        <h1>Create an assignment</h1>
+        <h1>Create an practice</h1>
         <FormItem label={"Title: "}>
           {getFieldDecorator(`title`, {
             validateTrigger: ["onChange", "onBlur"],

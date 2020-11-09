@@ -22,7 +22,7 @@ class AssignmentList extends React.PureComponent {
 
   renderItem(item) {
     return (
-      <Link to={`/assignments/${item.id}`}>
+      <Link to={`/practice/${item.id}`}>
         <List.Item>{item.title}</List.Item>
       </Link>
     );
@@ -35,7 +35,7 @@ class AssignmentList extends React.PureComponent {
           <Skeleton active />
         ) : (
           <div>
-            <h3 style={{ margin: "16px 0" }}>Assignment List</h3>
+            <h3 style={{ margin: "16px 0" }}>Practice List</h3>
             <List
               size="large"
               bordered
